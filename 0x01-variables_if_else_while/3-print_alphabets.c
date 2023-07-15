@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints the size of various types on the computer it is 
+ *Description: Prints the size of various types on the computer it is 
  *
  * Return: Always 0 (success)
 */
@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar (ch);
 		ch++;
-	}	
+	}
 	while (CH <= 'Z')
 	{
 		putchar(CH);
