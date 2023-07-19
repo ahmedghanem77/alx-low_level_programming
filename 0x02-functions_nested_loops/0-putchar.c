@@ -1,15 +1,16 @@
-#include <stdio.h>
-
+#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Description: print putchar
  *
- * Return: Always 0 (success)
+ * Return: on succsess 1.
+ * 	   on error, -1 is returned 
 */
 
-int main()
+int _putchar(char c)
 {
-	printf("_putchar");
-	return (0);
+	
+	return (write( 1, &c, 1));
 }
