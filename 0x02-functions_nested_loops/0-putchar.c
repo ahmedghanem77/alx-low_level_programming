@@ -8,11 +8,8 @@
  * Return: Always 0 (success)
 */
 
-void main(void)
+int main()
 {
 	printf("_putchar");
-
-
-return (0);
-
+	return (0);
 }
