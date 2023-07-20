@@ -3,12 +3,13 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: return 1 if it is upper 0 if not.
 */
 
 int _issupper(int c)
 {
-	if(c <=90 && c >= 65)
+	if(c >= 65 && c <= 90)
 		return(1);
-	else return (0);
+	else 
+		return (0);
 }
